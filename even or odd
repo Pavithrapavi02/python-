@@ -1,0 +1,10 @@
+evenno=0
+Oddno=0
+print("even or odd numbers")
+for i in range(10):
+if i%2==0:
+evenno=even+i
+else:
+oddno=odd+i
+print(evenno)
+print (oddno)
