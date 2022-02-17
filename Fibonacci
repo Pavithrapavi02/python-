@@ -1,0 +1,13 @@
+n=int(input("enter in value"))
+f1,f2=0,1
+sum=0
+i=0
+while(i<n):
+f=f1+f2
+f1=f2
+sum=sum+f1
+f1=f
+i=i+1
+print(sum)
+
+
